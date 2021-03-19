@@ -8,4 +8,6 @@ import com.example.demo.model.React;
 @Service
 public interface ReactService {
 	Page<React> gets(React react);
+	
+	String cave();
 }
