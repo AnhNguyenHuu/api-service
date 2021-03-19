@@ -9,4 +9,6 @@ import com.example.demo.model.React;
 public interface ReactService {
 	Page<React> gets(React react);
 	
+	
+	String caveJav();
 }
